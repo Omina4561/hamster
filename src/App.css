@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.phone{
+  width: 428px;
+  height: 926px;
+  border-radius: 50px;
+  background-color: #2C2F35;
+  margin: 0 auto;
+  font-family: roboto;
+}
+
+.title{
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.phone-container{
+  margin: 0 auto;
+  max-width: 370px; 
+}
+
+.box-parent{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  margin-top: 45px;
+}
+
+.box{
+  width: 117px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #32363C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box-text{
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.box-text-2{
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+}
+
+.coins{
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  padding-left: 140px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.coins img{
+  width: 49px;
+  margin-top: -10px;
+}
+
+.hamster{
+  margin-left: 25px;
+  margin-top: 140px;
+  position: relative;
+}
+
+.text1{
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 200px;
+  display: block;
+  animation: animation;
+  animation-duration: 1s;
+}
+
+.text2{
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 200px;
+  display: none;
+}
+
+@keyframes animation {
+  from{
+    top: 200px;
+  }
+  to{
+    top: 50px;
+  }
+  
+}
+
+.parent{
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 58px;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.right{
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.box-parent-2{
+  background-color: #32363CB2;
+  height: 60px;
+  border-radius: 12px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.box-2{
+  width: 65px;
+  height: 50px;
+  border-radius: 8px;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  flex-direction: column;
+  font-size: 9px;
+  color: white;
+  
+}
+
+.box-2:hover{
+  background-color: #21242980;
+
+}
